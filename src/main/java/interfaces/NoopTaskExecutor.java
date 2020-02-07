@@ -11,7 +11,7 @@ class NoopTaskExecutor implements TaskExecutor {
   }
 
   @Override
-  public void Execute() {
+  public void Execute(Task task) {
 
   }
 

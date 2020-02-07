@@ -8,8 +8,8 @@ public class ProxyingTaskExecutor implements TaskExecutor {
   }
 
   @Override
-  public void Execute() {
-    taskExecutor.Execute();
+  public void Execute(Task task) {
+    taskExecutor.Execute(task);
   }
 
   @Override
