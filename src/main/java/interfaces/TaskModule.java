@@ -4,6 +4,8 @@ import dagger.Module;
 import dagger.Provides;
 import javax.inject.Singleton;
 
+// TODO: Use TaskModule in a real environment.
+// We have an awesome TaskModule at our disposable. Let's use it!
 @Module(library = true)
 public class TaskModule {
   @Singleton
